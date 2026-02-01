@@ -1,0 +1,121 @@
+/* VSCode Modern Aesthetic for MkDocs */
+
+/* --- SHARED VARIABLES --- */
+:root {
+    --md-primary-fg-color: #181818;
+    --md-accent-fg-color: #007acc;
+}
+
+/* --- DARK THEME (VSCode Dark Modern) --- */
+[data-md-color-scheme="slate"] {
+    --md-default-fg-color: #ffffff !important;
+    /* Pure white text for high contrast */
+    --md-default-bg-color: #1e1e1e !important;
+    /* Editor background */
+    --md-code-fg-color: #d4d4d4 !important;
+    --md-code-bg-color: #1e1e1e !important;
+
+    /* Backgrounds */
+    --md-primary-fg-color: #181818 !important;
+    --md-sidebar-bg: #181818;
+}
+
+[data-md-color-scheme="slate"] a,
+[data-md-color-scheme="slate"] .md-typeset a {
+    color: #569cd6 !important;
+    /* Bright VSCode Blue */
+    font-weight: bold !important;
+    text-decoration: underline !important;
+}
+
+[data-md-color-scheme="slate"] a:hover,
+[data-md-color-scheme="slate"] .md-typeset a:hover {
+    color: #9cdcfe !important;
+}
+
+[data-md-color-scheme="slate"] .md-tabs {
+    background-color: #007acc !important;
+}
+
+[data-md-color-scheme="slate"] .md-tabs__link {
+    color: #000000 !important;
+    font-weight: 600 !important;
+}
+
+/* --- LIGHT THEME (VSCode Light Modern) --- */
+[data-md-color-scheme="default"] {
+    --md-default-fg-color: #333333 !important;
+    /* High contrast dark text */
+    --md-default-bg-color: #ffffff !important;
+    /* Pure white editor */
+    --md-code-fg-color: #1f1f1f !important;
+    --md-code-bg-color: #f8f8f8 !important;
+
+    /* Backgrounds */
+    --md-primary-fg-color: #ffffff !important;
+    --md-primary-bg-color: #f3f3f3 !important;
+}
+
+[data-md-color-scheme="default"] .md-header {
+    background-color: #f8f8f8 !important;
+    color: #333 !important;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+[data-md-color-scheme="default"] .md-header__button {
+    color: #333 !important;
+}
+
+[data-md-color-scheme="default"] .md-header__topic {
+    color: #333 !important;
+    font-weight: 600;
+}
+
+[data-md-color-scheme="default"] .md-tabs {
+    background-color: #007acc !important;
+}
+
+[data-md-color-scheme="default"] .md-tabs__link {
+    color: #ffffff !important;
+    font-weight: 600 !important;
+}
+
+[data-md-color-scheme="default"] a,
+[data-md-color-scheme="default"] .md-typeset a {
+    color: #005a9c !important;
+    /* Darker blue for light mode contrast */
+    font-weight: bold !important;
+    text-decoration: underline !important;
+}
+
+[data-md-color-scheme="default"] a:hover,
+[data-md-color-scheme="default"] .md-typeset a:hover {
+    color: #007acc !important;
+}
+
+/* --- GLOBAL REFINEMENTS --- */
+.highlight {
+    border: 1px solid #444;
+    border-radius: 4px;
+}
+
+[data-md-color-scheme="default"] .highlight {
+    border-color: #e5e5e5;
+}
+
+code {
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+[data-md-color-scheme="slate"] code {
+    background-color: #2d2d2d !important;
+    color: #ce9178 !important;
+}
+
+[data-md-color-scheme="default"] code {
+    background-color: #eff1f3 !important;
+    color: #a31515 !important;
+    /* VSCode Light String color */
+}
