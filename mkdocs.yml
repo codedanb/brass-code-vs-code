@@ -63,6 +63,7 @@ nav:
   - Project Guides:
       - Running the Project: RUNNING_GUIDE.md
       - MkDocs Walkthrough: MKDOCS_WALKTHROUGH.md
+      - GitHub Pages Setup: GITHUB_PAGES_SETUP.md
   - Amazon: amazon/index.md
   - Google: google/index.md
   - Microsoft: microsoft/index.md
