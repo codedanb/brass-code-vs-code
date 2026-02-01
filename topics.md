@@ -1,0 +1,53 @@
+# FAANG DSA Questions Transcription
+
+Based on the provided image "Top DSA Questions at FAANG Companies", here are the questions categorized by company. Click on a problem name to view its detailed documentation.
+
+## Google
+1.  [Two Sum](docs/google/01_two_sum.md)
+2.  [Binary Tree Level Order Traversal](docs/google/02_binary_tree_level_order_traversal.md)
+3.  [Longest Substring Without Repeating Characters](docs/google/03_longest_substring.md)
+4.  [Kth Largest Element in Array](docs/google/04_kth_largest_element.md)
+5.  [Merge Intervals](docs/google/05_merge_intervals.md)
+6.  [Search in Rotated Sorted Array](docs/google/06_search_in_rotated_sorted_array.md)
+7.  [Valid Parentheses](docs/google/07_valid_parentheses.md)
+8.  [Word Ladder](docs/google/08_word_ladder.md)
+9.  [Container With Most Water](docs/google/09_container_most_water.md)
+10. [Subset Sum II](docs/google/10_subset_sum_ii.md)
+11. [Find Median from Data Stream](docs/google/11_find_median_data_stream.md)
+12. [Minimum Window Substring](docs/google/12_minimum_window_substring.md)
+13. [Reverse Nodes in k-Group](docs/google/13_reverse_nodes_k_group.md)
+14. [Find Minimum in Rotated Sorted Array](docs/google/14_find_min_rotated_sorted.md)
+
+## Amazon
+1.  [Levenshtein Distance / Edit Distance](docs/amazon/01_edit_distance.md)
+2.  [Reverse Linked List](docs/amazon/02_reverse_linked_list.md)
+3.  [Trapping Rain Water](docs/amazon/03_trapping_rain_water.md)
+4.  [Merge K Sorted Lists](docs/amazon/04_merge_k_sorted_lists.md)
+5.  [Valid Parentheses](docs/amazon/05_valid_parentheses.md)
+6.  [LRU Cache](docs/amazon/06_lru_cache.md)
+7.  [Top K Frequent Elements](docs/amazon/07_top_k_frequent.md)
+8.  [Binary Tree Zigzag Level Order Traversal](docs/amazon/08_zigzag_level_order.md)
+9.  [Min Stack](docs/amazon/09_min_stack.md)
+10. [Integer to Roman](docs/amazon/10_integer_to_roman.md)
+11. [Subtree of Another Tree](docs/amazon/11_subtree_another_tree.md)
+12. [Palindrome Linked List](docs/amazon/12_palindrome_linked_list.md)
+13. [Reorder Data in Log Files](docs/amazon/13_reorder_log_files.md)
+14. [Check If a String is a Substring of Another String](docs/amazon/14_is_substring.md)
+15. [Word Break](docs/amazon/15_word_break.md)
+
+## Microsoft
+1.  [Largest Rectangle in Histogram](docs/microsoft/m01_largest_rectangle_histogram.md)
+2.  [Linked List Cycle](docs/microsoft/m02_linked_list_cycle.md)
+3.  [Group Anagrams](docs/microsoft/m03_group_anagrams.md)
+4.  [Letter Combinations of a Phone Number](docs/microsoft/m04_letter_combinations.md)
+5.  [Valid Sudoku](docs/microsoft/m05_valid_sudoku.md)
+6.  [Word Search](docs/microsoft/m06_word_search.md)
+7.  [Minimum Depth of Binary Tree](docs/microsoft/m07_min_depth.md)
+8.  [Rotate Array](docs/microsoft/m08_rotate_array.md)
+9.  [Largest Palindromic Substring](docs/microsoft/m09_largest_palindrome.md)
+10. [Combination Sum](docs/microsoft/m10_combination_sum.md)
+11. [Valid Palindrome](docs/microsoft/m11_valid_palindrome.md)
+12. [Delete Node in a Linked List](docs/microsoft/m12_delete_node.md)
+13. [Best Time to Buy and Sell Stock](docs/microsoft/m13_buy_sell_stock.md)
+14. [Spiral Matrix](docs/microsoft/m14_spiral_matrix.md)
+15. [Binary Tree Right Side View](docs/microsoft/m15_right_side_view.md)

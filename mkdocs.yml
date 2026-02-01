@@ -1,0 +1,68 @@
+site_name: FAANG DSA Course
+site_description: FAANG interview DSA solutions with educational focus
+
+theme:
+  name: material
+  palette:
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - scheme: default
+      primary: white
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - attr_list
+  - md_in_html
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Topics: topics.md
+  - Problem Mapping: PROBLEM_MAPPING.md
+  - Internal Reference: INTERNAL_REFERENCE.md
+  - Source Code:
+      - Amazon: source_code/amazon.md
+      - Google: source_code/google.md
+      - Microsoft: source_code/microsoft.md
+  - Project Guides:
+      - Running the Project: RUNNING_GUIDE.md
+      - MkDocs Walkthrough: MKDOCS_WALKTHROUGH.md
+  - Amazon: amazon/index.md
+  - Google: google/index.md
+  - Microsoft: microsoft/index.md
